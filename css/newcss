@@ -1,0 +1,42 @@
+body {
+  background-color: #EAD5E6;
+}
+
+#carousel {
+  width: 80vw;
+  margin: 10px auto;
+  text-align: center;
+
+}
+
+#innerCarousel {
+  background-color: grey;
+  text-align: center;
+
+}
+.img {
+  display: none;
+}
+
+.hiddenPics {
+  display: none;
+}
+
+.activePics {
+  width: 20vw;
+  transform: scale(1.25);
+}
+
+img {
+  width: 18vw;
+
+}
+
+span {
+  cursor: pointer;
+  margin: 2vh;
+  font-size: 3em;
+  height: 3vh;
+  width: 2vw;
+
+  }

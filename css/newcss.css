@@ -1,0 +1,41 @@
+body {
+  background-color: #EAD5E6;
+}
+
+#carousel {
+  background-color: grey;
+  white-space: no-wrap;
+  width: 90vw;
+  margin: 10px auto;
+  text-align: center;
+  overflow-x: hidden;
+
+}
+
+.img {
+  display: inline-block;
+}
+
+img {
+  width: 30vw;
+
+}
+
+span {
+  cursor: pointer;
+  margin: 2vh;
+  font-size: 3em;
+  height: 3vh;
+  width: 2vw;
+
+  }
+
+.hiddenPics {
+  display: none;
+}
+
+.activePics {
+  width: 28vw;
+  max-height: 300px;
+
+}
